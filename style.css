@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header,
+.top_section,
+.card_section,
+.quote_section,
+.sign-up_section,
+.footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.header{
+    background-color: #1f2937;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.top_section{
+    background-color: #1f2937;
+    height: 300px;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 25px;
+}
+.top_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.top_right {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-items: center;
+}
+
+.top_section h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    display: inline;
+    margin: 0;
+}
+
+.top_section p{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: inline;
+    margin: 0;
+}
+.top_section img {
+    border: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+    height: auto;
+}
+
+.card_section{
+    background-color: #ffffff;
+    height: 300px;
+
+}
+
+.quote_section{
+    background-color: #e5e7eb;
+    height: 300px;
+}
+
+.sign-up_section{
+    background-color: #ffffff;
+    height: 300px;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 50px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    width: 115px;
+    height: 32px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+/*
+remember to add extra styling to the button at the bottom of the page. 
+.sign-up_section button {
+       
+}
+
+*/
