@@ -140,6 +140,17 @@ body {
 .sign-up_section{
     background-color: #ffffff;
     height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox {
+    background: #3882f6;
+    display: flex;
+    width: 700px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .footer{
@@ -164,6 +175,7 @@ a {
     color: #e5e7eb;
 }
 
+/* styling for the button @ at the top of the page*/
 button {
     width: 115px;
     height: 32px;
@@ -176,10 +188,17 @@ button {
     margin-top: 5px;
 }
 
-/*
-remember to add extra styling to the button at the bottom of the page. 
-.sign-up_section button {
+ /* styling for the button @ at the bottom of the page*/
+.bluebox button {
+    width: 115px;
+    height: 32px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid;
+    border-color: white; /* check the color and width etc for the border to match the assignment picture*/
+    margin-top: 5px;
        
 }
-
-*/
