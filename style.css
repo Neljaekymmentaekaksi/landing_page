@@ -30,6 +30,8 @@ body {
     font-size: 24px;
 }
 
+
+/* styling for the top section */
 .top_section{
     background-color: #1f2937;
     height: 300px;
@@ -73,33 +75,18 @@ body {
     width: 300px;
     height: auto;
 } 
-
+/* styling for the top section ends */
+/* styling for the card section */
 .card_section{
     background-color: #ffffff;
     height: 400px;
     flex-direction: column;
     text-align: center;
 }
-.info_area {
-    display: flex; /* add this div to the list in lines 12-17*/
-    align-content: center;
-    justify-content: center;
-    gap: 35px;
-}
 .card {
     max-width: 125px;
 
 }
-
-.info_area img{
-    width: 125px;
-    height: 125px;
-    border-color: #3882f6;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 10%;
-}
-
 .card_section h1{
     margin: 0;
     padding: 0;
@@ -114,7 +101,23 @@ body {
     font-size: 12px;
     color: #1f2937;
 }
+.info_area {
+    display: flex; /* add this div to the list in lines 12-17*/
+    align-content: center;
+    justify-content: center;
+    gap: 35px;
+}
 
+.info_area img{
+    width: 125px;
+    height: 125px;
+    border-color: #3882f6;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10%;
+}
+/* styling for the card section ends */
+/* styling for the quote section */
 .quote_section{
     background-color: #e5e7eb;
     height: 500px;
@@ -136,7 +139,8 @@ body {
     align-self: flex-end;
     margin-top: 5px;
 }
-
+/* styling for the quote section ends*/
+/* styling for the sign-up section */
 .sign-up_section{
     background-color: #ffffff;
     height: 300px;
@@ -147,17 +151,49 @@ body {
 .bluebox {
     background: #3882f6;
     display: flex;
-    width: 700px;
+    width: 900px;
     height: 100px;
     padding: 5px;
     border-radius: 5px;
+    color: #ffffff;
+    flex: 1 1 0;
 }
+.blue_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 0;
+}
+.blue_left p{
+    margin: 0px;
+    margin-left: 15%;
+    font-size: 14px;
 
+}
+.boldp {
+    font-weight: 800;
+}
+.blue_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+}
+/* styling for the sign-up section ends */
+
+/* footer styling below */
 .footer{
     background-color: #1f2937;
-    height: 50px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
 }
+/* footer ends*/
 
+/* ul, li and a elements styled below*/
 ul{
     list-style: none;
     margin: 0;
@@ -175,7 +211,7 @@ a {
     color: #e5e7eb;
 }
 
-/* styling for the button @ at the top of the page*/
+/* styling for the button at the top of the page*/
 button {
     width: 115px;
     height: 32px;
@@ -186,9 +222,10 @@ button {
     font-weight: bold;
     border: none;
     margin-top: 5px;
+    cursor: pointer;
 }
 
- /* styling for the button @ at the bottom of the page*/
+ /* styling for the button at the bottom of the page*/
 .bluebox button {
     width: 115px;
     height: 32px;
@@ -199,6 +236,14 @@ button {
     font-weight: bold;
     border: solid;
     border-color: white; /* check the color and width etc for the border to match the assignment picture*/
-    margin-top: 5px;
-       
+    margin-left: 10px;
+    animation: blink 1s linear infinite; /*adding a bit of animation*/
+    cursor: pointer;  
+}
+
+/*adding a bit of animation*/
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
 }
